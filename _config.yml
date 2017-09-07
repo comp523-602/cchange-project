@@ -1,0 +1,14 @@
+---
+title: COMP 523.602 (CChange)
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+footer_text: Footer text here
+sass:
+  style: compressed
+---
