@@ -8,6 +8,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-footer_text: Footer text here
+footer_text: Jonathan Ng / Daniel Flynt / Tomas Roy
 sass:
   style: compressed

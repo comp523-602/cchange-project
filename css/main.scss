@@ -1,4 +1,35 @@
 ---
 ---
 
+// Universals
 html, body {margin:0px; padding:0px;}
+
+// Fonts
+body {font-family:'Roboto', sans-serif; font-size:16px; line-height:1.5;}
+h1, h2, h3 {display:block; margin:0px;}
+
+// Layout
+.container {max-width:800px; padding:0px 30px; margin:0px auto;}
+.section {padding:30px 0px;}
+
+// Header & Footer
+header {
+	background:#eee; border-bottom:1px solid #ddd;
+	.site_title {color:#666;}
+	.slash {color:#888;}
+	.navigation {
+		margin-top:10px;
+		a {display:inline-block; margin-right:10px; color:inherit;}
+	}
+}
+footer {
+	border-top:1px solid #ddd; text-align:center;
+}
+
+// Content
+.content {
+	
+}
+
+
+
