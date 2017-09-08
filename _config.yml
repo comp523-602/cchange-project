@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-url: "/project/"
+url: "/project"
 footer_text: Jonathan Ng / Daniel Flynt / Tomas Roy
 sass:
   style: compressed
