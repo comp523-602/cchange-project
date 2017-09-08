@@ -1,2 +1,2 @@
-# roof.io
-Jekyll website for roof.io
+# COMP 523.602 Project Website
+Built on Jekyll
