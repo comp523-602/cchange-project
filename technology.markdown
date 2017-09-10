@@ -11,4 +11,4 @@ date: 2017-09-10 16:50:00 -04:00
 
 **Development Environment**
 
-* Ubuntu Droplet - DigitalOcean
+* Ubuntu server on DigitalOcean
