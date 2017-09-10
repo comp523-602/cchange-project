@@ -7,13 +7,13 @@ layout: basic
 ¢Change is a photo filter app that uses micro-donations to share awareness, support non-profit organizations and effortlessly make an impact.
 
 **Basic Requirements**
-	micro-donations
-	donation profiles
-	receipts
-	share to other platforms
-	secure banking system
-	not interfering with content
-	seeing when people you know have donated
+* micro-donations
+* donation profiles
+* receipts
+* share to other platforms
+* secure banking system
+* not interfering with content
+* seeing when people you know have donated
 
 
 **Weekly Schedule**
