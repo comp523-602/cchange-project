@@ -6,11 +6,8 @@ layout: basic
 ---
 
 **Platform and Technologies**
-
 * Front-end: React Native
-
 * Back-end: NodeJS on Express, MongoDB
 
 **Development Environment**
-
 * Ubuntu server on DigitalOcean
