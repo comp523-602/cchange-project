@@ -6,15 +6,23 @@ layout: basic
 
 # App Pages
 
-Feed
-Charity
-Donor Profile
-Personal payment history
-Login
-Signup -> Payment method
-Donation/Posting
-Post
-Campaign
+* Feed
+
+* Charity
+
+* Donor Profile
+
+* Personal payment history
+
+* Login
+
+* Signup -> Payment method
+
+* Donation/Posting
+
+* Post
+
+* Campaign
 
 # Page Descriptions
 
