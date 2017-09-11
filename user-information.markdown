@@ -1,7 +1,7 @@
 ---
 title: User Information
 date: 2017-09-10 16:31:00 -04:00
-position: 3
+position: 1
 layout: basic
 ---
 
