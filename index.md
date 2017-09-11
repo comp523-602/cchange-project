@@ -4,7 +4,18 @@ layout: basic
 ---
 
 **Project Description**
-CChange is a social media platform which makes it easy for users to support causes they love while sharing content online. CChange hopes to harness the power of microdonations and integrate heavily with existing social media platforms.
+
+¢Change is a photo filter app that uses micro-donations to share awareness, support non-profit organizations and effortlessly make an impact.
+
+**Basic Requirements**
+* micro-donations
+* donation profiles
+* receipts
+* share to other platforms
+* secure banking system
+* not interfering with content
+* seeing when people you know have donated
+
 
 **Weekly Schedule**
 Team Meeting: Thursday at 3:30pm
