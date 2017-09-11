@@ -1,6 +1,7 @@
 ---
 title: User Information
 date: 2017-09-10 16:31:00 -04:00
+layout: basic
 ---
 
 # Users 18-25
