@@ -6,7 +6,6 @@ layout: basic
 ---
 
 # Front-end outline
-
 ## App Views
 * Login / Signup
 * Feed / Search
@@ -19,7 +18,6 @@ layout: basic
 * Campaign view
 
 ## View Descriptions
-
 **Login / signup**
 Login page providing ability to connect account to external social media (?) or ability to sign up
 Components: Login textbox, signup link
@@ -57,9 +55,7 @@ Page detailing charity campaign. Users who have donated to this campaign appear 
 Components: post, about, donate
 
 # Back-end outline
-
 ## Model Objects
-
 **User**
 A user can create posts and donations and create/join charities
 Properties: name, email, password, charities[GUID], posts[GUID], donations[GUID]
