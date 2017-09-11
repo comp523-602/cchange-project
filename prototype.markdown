@@ -1,6 +1,7 @@
 ---
 title: Prototype
 date: 2017-09-10 17:42:00 -04:00
+layout: basic
 ---
 
 # App Pages
