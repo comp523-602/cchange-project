@@ -34,7 +34,7 @@ footer {
 		margin:0px; padding:0px; padding-left:30px;
 		li {
 			display:inline-block;
-			&:before {content:"\2022"; margin-right:5px;}
+			&:before {content:"\2022"; margin-right:5px; display:inline-block;}
 		}
 	}
 }
