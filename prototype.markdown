@@ -8,23 +8,14 @@ layout: basic
 # Front-end outline
 
 ## App Views
-
 * Login / Signup
-
 * Feed / Search
-
 * Charity profile
-
 * Donor profile
-
 * Donor payment history
-
 * Payment settings
-
 * Post create
-
 * Post view
-
 * Campaign view
 
 ## View Descriptions
