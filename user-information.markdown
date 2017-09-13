@@ -1,5 +1,5 @@
 ---
-title: User Information
+title: User Stories from Client
 date: 2017-09-10 16:31:00 -04:00
 position: 1
 layout: basic
