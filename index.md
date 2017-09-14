@@ -4,6 +4,8 @@ position: 0
 layout: basic
 ---
 
+# About
+
 **Project Description**
 ¢Change is a photo filter app that uses micro-donations to share awareness, support non-profit organizations and effortlessly make an impact.
 
@@ -22,6 +24,7 @@ Class Meeting: Monday at 12:35pm
 Client Meeting: Friday at 1:00pm near Franklin Street
 
 # Contact Information
+
 **Jonathan Ng**
 (703) 608-1078
 jonng@live.unc.edu
