@@ -34,7 +34,7 @@ Async: utilities for synchronous/asynchronous functions, used especially for wat
 
 Dependencies (libraries, in-app tools, other includes, etc) appear at top of files, variable names are capitalized
 Callback functions - the first argument is always an err (to stay consistent with the Async library), passed variables come next
-Arguments - if a function has more than one argument, it should be initialized as `functionName ({arg1, arg2}, callback)` and called as:
+Arguments - if a function has more than one non-callback argument, it should be initialized as `functionName ({arg1, arg2}, callback)` and called as:
 `functionName({`
 `arg1: "value1",`
 `arg2: "value2"`
