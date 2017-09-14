@@ -5,4 +5,11 @@ layout: basic
 ---
 
 ## Installation
+
+Clone the repository
 `git clone https://github.com/comp523-602/cchange-api.git`
+
+Set up the repository
+`npm install` - installs required packages
+
+Create a config.js file for your environment
