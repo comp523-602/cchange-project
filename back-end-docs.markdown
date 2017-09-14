@@ -44,9 +44,11 @@ Arguments - if a function has more than one argument, it should be initialized a
 Object notation: single quotes for keys, double quotes for string values
 
 ## File Structure
+
 server.js - primary file, opens connection to database, runs server with routes from api/Routes.js
 
 ### API
+
 Routes.js - combines all routing files from api/routes/
 Static.js - combines all enumerations
 **model** - folders for each model object, each with a main file, a methods file and a properties file (used to set up Mongoose schema), also includes ObjectMethods.js and ObjectProperties.js (which all model objects extend)
