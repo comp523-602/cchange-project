@@ -34,4 +34,18 @@ Async: utilities for synchronous/asynchronous functions, used especially for wat
 
 Dependencies (libraries, in-app tools, other includes, etc) appear at top of files, variable names are capitalized
 Callback functions - the first argument is always an err (to stay consistent with the Async library), passed variables come next
-Arguments - if a function has more than one argument, it should be initialized as `functionName ({arg1, arg2}, callback)` and called
+Arguments - if a function has more than one argument, it should be initialized as `functionName ({arg1, arg2}, callback)` and called as:
+`functionName({
+`    arg1: "value1",
+`    arg2: "value2"
+`}, function () {`
+`    // callback functionality here`
+`});`
+Object notation: single quotes for keys, double quotes for string values
+
+## File Structure
+server.js - primary file, opens connection to database, runs server with routes from api/Routes.js
+
+### API
+Routes.js - combines all routing files from api/routes/
+Static.js - combines all enumerations
