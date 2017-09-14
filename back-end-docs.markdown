@@ -49,3 +49,6 @@ server.js - primary file, opens connection to database, runs server with routes 
 ### API
 Routes.js - combines all routing files from api/routes/
 Static.js - combines all enumerations
+**model** - folders for each model object, each with a main file, a methods file and a properties file (used to set up Mongoose schema), also includes ObjectMethods.js and ObjectProperties.js (which all model objects extend)
+**routes** - routes for auth and interactions with each model object
+**tools** - database tools, timestamp tools, more
