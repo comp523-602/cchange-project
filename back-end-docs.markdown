@@ -15,9 +15,9 @@ Set up the repository
 
 Create a config.js file for your environment
 `modules.exports = {`
-`    'ip': "127.0.0.1",`
-`    'port': "3000",`
-`    'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname>"`
+`'ip': "127.0.0.1",`
+`'port': "3000",`
+`'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname>"`
 `}'`
 
 Run the server
