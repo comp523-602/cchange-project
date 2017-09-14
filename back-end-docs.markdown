@@ -36,10 +36,10 @@ Dependencies (libraries, in-app tools, other includes, etc) appear at top of fil
 Callback functions - the first argument is always an err (to stay consistent with the Async library), passed variables come next
 Arguments - if a function has more than one argument, it should be initialized as `functionName ({arg1, arg2}, callback)` and called as:
 `functionName({`
-`arg1: "value1",`
-`arg2: "value2"`
+`  arg1: "value1",`
+`  arg2: "value2"`
 `}, function () {`
-`// callback functionality here`
+`  // callback functionality here`
 `});`
 Object notation: single quotes for keys, double quotes for string values
 
