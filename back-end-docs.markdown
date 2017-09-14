@@ -14,3 +14,9 @@ Set up the repository
 `npm install` - installs required packages
 
 Create a config.js file for your environment
+```module.exports = {
+	'ip': "127.0.0.1",
+	'port': "3000",
+	'database': "mongodb://tomas:password@ds135234.mlab.com:35234/cchange-tomas"
+};```
+
