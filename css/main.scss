@@ -38,4 +38,7 @@ footer {
 			&:before {content:"\2022"; margin-right:5px; display:inline-block;}
 		}
 	}
+	pre {
+		br {display:inline-block;}
+	}
 }
