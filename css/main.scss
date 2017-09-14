@@ -39,6 +39,9 @@ footer {
 		}
 	}
 	pre {
-		br {display:inline-block;}
+		br {
+			content: " ";
+    		display: none;
+		}
 	}
 }
