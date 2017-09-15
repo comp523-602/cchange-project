@@ -26,6 +26,7 @@ Run the server
 ## Libraries used
 
 Express: listens to port, handles server routes ([https://expressjs.com/en/guide/routing.html](https://expressjs.com/en/guide/routing.html))
+BodyParser: allows Express to read the body of POST requests
 Mongoose: MongoDB database tool, used for database connection, schemas, queries, and updates
 \([http://mongoosejs.com/docs/guide.html](http://mongoosejs.com/docs/guide.html))
 Async: utilities for synchronous/asynchronous functions, used especially for waterfall\[\] callback chaining ([https://caolan.github.io/async/docs.html](https://caolan.github.io/async/docs.html))
