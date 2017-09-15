@@ -5,6 +5,12 @@ position: 4
 layout: basic
 ---
 
+## Routes
+
+### /auth.create
+Request: name: "", email: "", password: ""
+Response: user: "", token: ""
+
 ## Installation
 
 Clone the repository
