@@ -14,11 +14,14 @@ Set up the repository
 `npm install` - installs required packages
 
 Create a config.js file for your environment
-`modules.exports = {`
-`'ip': "127.0.0.1",`
-`'port': "3000",`
-`'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname>"`
-`}'`
+```
+modules.exports = {
+  'ip': "127.0.0.1",
+  'port': "3000",
+  'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname>",
+  'secret': "<secret key for authentication>"
+}
+```
 
 Run the server
 `node server.js`
@@ -32,6 +35,7 @@ Mongoose: MongoDB database tool, used for database connection, schemas, queries,
 Async: utilities for synchronous/asynchronous functions, used especially for waterfall\[\] callback chaining ([https://caolan.github.io/async/docs.html](https://caolan.github.io/async/docs.html))
 Moment: time & date utilities ([http://momentjs.com/docs/](http://momentjs.com/docs/))
 UUID: used to create unique IDs for objects
+JSON Web Tokens: used for authentication tokens
 
 ## Style guidelines
 
