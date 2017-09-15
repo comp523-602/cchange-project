@@ -5,12 +5,6 @@ position: 4
 layout: basic
 ---
 
-## Routes
-
-### /auth.create
-Parameters: name, email, password
-Response: user: {}, token: ""
-
 ## Installation
 
 Clone the repository
@@ -20,14 +14,11 @@ Set up the repository
 `npm install` - installs required packages
 
 Create a config.js file for your environment
-```
-modules.exports = {
-  'ip': "127.0.0.1",
-  'port': "3000",
-  'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname>",
-  'secret': "<secret key for authentication>"
-}
-```
+`modules.exports = {`
+`'ip': "127.0.0.1",`
+`'port': "3000",`
+`'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname>"`
+`}'`
 
 Run the server
 `node server.js`
@@ -35,13 +26,9 @@ Run the server
 ## Libraries used
 
 Express: listens to port, handles server routes ([https://expressjs.com/en/guide/routing.html](https://expressjs.com/en/guide/routing.html))
-BodyParser: allows Express to read the body of POST requests
 Mongoose: MongoDB database tool, used for database connection, schemas, queries, and updates
 \([http://mongoosejs.com/docs/guide.html](http://mongoosejs.com/docs/guide.html))
 Async: utilities for synchronous/asynchronous functions, used especially for waterfall\[\] callback chaining ([https://caolan.github.io/async/docs.html](https://caolan.github.io/async/docs.html))
-Moment: time & date utilities ([http://momentjs.com/docs/](http://momentjs.com/docs/))
-UUID: used to create unique IDs for objects
-JSON Web Tokens: used for authentication tokens
 
 ## Style guidelines
 
@@ -68,6 +55,6 @@ server.js - primary file, opens connection to database, runs server with routes 
 
 Routes.js - combines all routing files from api/routes/
 Static.js - combines all enumerations
-**model** - folders for each model object, each with a main file, a methods file and a properties file (used to set up Mongoose schema), also includes ObjectMethods.js and ObjectProperties.js (which all model objects extend)
+**model** - files for each model object and Object.js (which all objects extend)
 **routes** - routes for auth and interactions with each model object
 **tools** - database tools, timestamp tools, more
