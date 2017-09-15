@@ -63,11 +63,8 @@ Object notation: single quotes for keys, double quotes for string values
 ## File Structure
 
 server.js - primary file, opens connection to database, runs server with routes from api/Routes.js
-
-### API
-
-Routes.js - combines all routing files from api/routes/
-Static.js - combines all enumerations
-**model** - files for each model object and Object.js (which all objects extend)
-**routes** - routes for auth and interactions with each model object
-**tools** - database tools, timestamp tools, more
+api/Routes.js - combines all routing files from api/routes/
+api/Static.js - combines all enumerations, static values, etc
+**api/model** - files for each model object and Object.js (which all objects extend)
+**api/routes** - files for each group of routes for auth and interactions with each model object
+**api/tools** - database tools, timestamp tools, more
