@@ -8,6 +8,7 @@ layout: basic
 ## Routes
 
 ### /auth.create
+Creates a new user, authorizes session
 Request: name: "", email: "", password: ""
 Response: user: "", token: ""
 
