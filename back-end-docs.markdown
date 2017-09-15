@@ -29,6 +29,8 @@ Express: listens to port, handles server routes ([https://expressjs.com/en/guide
 Mongoose: MongoDB database tool, used for database connection, schemas, queries, and updates
 \([http://mongoosejs.com/docs/guide.html](http://mongoosejs.com/docs/guide.html))
 Async: utilities for synchronous/asynchronous functions, used especially for waterfall\[\] callback chaining ([https://caolan.github.io/async/docs.html](https://caolan.github.io/async/docs.html))
+Moment: time & date utilities ([http://momentjs.com/docs/](http://momentjs.com/docs/))
+UUID: used to create unique IDs for objects
 
 ## Style guidelines
 
