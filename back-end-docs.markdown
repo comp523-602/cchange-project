@@ -14,11 +14,14 @@ Set up the repository
 `npm install` - installs required packages
 
 Create a config.js file for your environment
-`modules.exports = {`
-`'ip': "127.0.0.1",`
-`'port': "3000",`
-`'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname>"`
-`}'`
+```
+modules.exports = {
+  'ip': "127.0.0.1",
+  'port': "3000",
+  'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname>",
+  'secret': "<auth secret key>",
+}'
+```
 
 Run the server
 `node server.js`
@@ -37,14 +40,14 @@ Callback functions - the first argument is always an err (to stay consistent wit
 Arguments - if a function has more than one non-callback argument, it should be initialized as
 `functionName ({arg1, arg2}, callback)`
 and called as:
-```javascript
-functionName({
-  arg1: "value1",
-  arg2: "value2"
-}, function () {
-  // callback functionality here`
-});
-```
+
+    functionName({
+      arg1: "value1",
+      arg2: "value2"
+    }, function () {
+      // callback functionality here`
+    });
+
 Object notation: single quotes for keys, double quotes for string values
 
 ## File Structure
