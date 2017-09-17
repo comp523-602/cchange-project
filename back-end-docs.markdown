@@ -9,8 +9,8 @@ layout: basic
 http://api.cchange.ga
 
 ## Formatting
-All endpoints accept POST requests
-All parameters are send in the POST body as JSON
+All routes listen to POST requests
+All parameters are sent in the POST body as JSON
 Headers should include 'content-type': 'application/json'
 
 ## Routes
