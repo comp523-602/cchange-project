@@ -5,6 +5,9 @@ position: 1
 layout: basic
 ---
 
+**Repository**
+https://github.com/comp523-602
+
 **Platform and Technologies**
 * Web app and mobile: Posters will generally be using mobile, but people posting on behalf of charities and people navigating from other social media sites may be using a computer.
 * Front-end: React Native
