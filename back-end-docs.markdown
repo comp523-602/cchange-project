@@ -47,7 +47,6 @@ Express: listens to port, handles server routes ([https://expressjs.com/en/guide
 Mongoose: MongoDB database tool, used for database connection, schemas, queries, and updates
 \([http://mongoosejs.com/docs/guide.html](http://mongoosejs.com/docs/guide.html))
 Async: utilities for synchronous/asynchronous functions, used especially for waterfall\[\] callback chaining ([https://caolan.github.io/async/docs.html](https://caolan.github.io/async/docs.html))
-Morgan: middleware for logging requests ([https://github.com/expressjs/morgan](https://github.com/expressjs/morgan))
 
 ## Style guidelines
 
@@ -74,3 +73,4 @@ api/Static.js - combines all enumerations, static values, etc
 **api/model** - files for each model object and Object.js (which all objects extend)
 **api/routes** - files for each group of routes for auth and interactions with each model object
 **api/tools** - database tools, timestamp tools, more
+**api/static** - static enumerations, types, messages
