@@ -15,7 +15,7 @@ Headers should include 'content-type': 'application/json'
 
 ## Routes
 
-### /auth.create
+### /user.create
 Creates a new user, authorizes session
 Request: name: "", email: "", password: ""
 Response: user: {}, token: ""
