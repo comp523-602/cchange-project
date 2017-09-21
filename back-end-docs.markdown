@@ -27,12 +27,12 @@ Response: user: {}, token: ""
 
 ### /charityToken.create
 Creates a charity token for an email, sends email
-Request: email: "", adminPassword: ""
+Request: email: "", adminPassword: "password1"
 Response: charityToken: {}
 
 ### /charity.create
 Creates a create for a charityUser
-Headers: Authorization = Bearer <token>
+Headers: Authorization = <token from user.create / user.login>
 Request: name: "", description: ""
 Response: charity: {}
 
