@@ -52,6 +52,14 @@ Express: listens to port, handles server routes ([https://expressjs.com/en/guide
 Mongoose: MongoDB database tool, used for database connection, schemas, queries, and updates
 \([http://mongoosejs.com/docs/guide.html](http://mongoosejs.com/docs/guide.html))
 Async: utilities for synchronous/asynchronous functions, used especially for waterfall\[\] callback chaining ([https://caolan.github.io/async/docs.html](https://caolan.github.io/async/docs.html))
+BodyParser: parses JSON body on POST requests
+JSON Web Token: used to generate tokens for authorization ([https://github.com/auth0/node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken))
+Password Hash: used to hash and verify passwords ([https://github.com/davidwood/node-password-hash](https://github.com/davidwood/node-password-hash))
+Moment.js: used to handle dates
+UUID: used to generate unique IDs
+Morgan: color-coded request logging for Express
+
+
 
 ## Style guidelines
 
