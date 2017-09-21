@@ -17,7 +17,12 @@ Headers should include 'content-type': 'application/json'
 
 ### /user.create
 Creates a new user, authorizes session
-Request: name: "", email: "", password: ""
+Request: name: "", email: "", password: "" (letters, numbers, minlength 8)
+Response: user: {}, token: ""
+
+### /user.login
+Authorizes user
+Request: email: "", password: ""
 Response: user: {}, token: ""
 
 ## Installation
