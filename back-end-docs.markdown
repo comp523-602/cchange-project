@@ -25,6 +25,16 @@ Authorizes user
 Request: email: "", password: ""
 Response: user: {}, token: ""
 
+### /charityToken.create
+Creates a charity token for an email, sends email
+Request: email: "", adminPassword: ""
+Response: charityToken: {}
+
+### /charity.create
+Creates a create for a charityUser
+Request: name: "", description: ""
+Response: charity: {}
+
 ## Installation
 
 Clone the repository
