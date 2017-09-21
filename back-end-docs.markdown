@@ -41,7 +41,8 @@ modules.exports = {
   'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname>",
   'secret': "<auth secret key>",
   'adminPassword': "<password for admin panel",
-  'sendGrid': "<SendGrid API key>"
+  'sendGrid': "<SendGrid API key>",
+  'fromEmail': "<email to send mail as>"
 }'
 ```
 
