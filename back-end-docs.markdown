@@ -31,10 +31,11 @@ Request: email: "", adminPassword: "password1"
 Response: charityToken: {}
 
 ### /charity.create
-Creates a create for a charityUser
+Creates a charity for a charityUser
 Headers: Authorization = <token from user.create / user.login>
 Request: name: "", description: ""
 Response: charity: {}
+Notes: Unauthorized unless you have a charity account
 
 ## Installation
 
