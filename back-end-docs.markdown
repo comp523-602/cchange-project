@@ -32,6 +32,7 @@ Response: charityToken: {}
 
 ### /charity.create
 Creates a create for a charityUser
+Headers: Authorization
 Request: name: "", description: ""
 Response: charity: {}
 
