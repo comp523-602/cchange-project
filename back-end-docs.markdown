@@ -40,8 +40,7 @@ modules.exports = {
   'port': "3000",
   'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname>",
   'secret': "<auth secret key>",
-  'adminPassword': "<password for admin panel",
-  'fromEmail': "<from address for sending emails>",
+  'adminPassword': "<password for admin panel"
 }'
 ```
 
@@ -61,8 +60,6 @@ Moment.js: used to handle dates
 UUID: used to generate unique IDs
 Morgan: color-coded request logging for Express
 NodeMailer: used to send token emails to charity users
-
-
 
 ## Style guidelines
 
