@@ -40,6 +40,8 @@ modules.exports = {
   'port': "3000",
   'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname>",
   'secret': "<auth secret key>",
+  'adminPassword': "<password for admin panel",
+  'fromEmail': "<from address for sending emails>",
 }'
 ```
 
