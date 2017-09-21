@@ -58,6 +58,7 @@ Password Hash: used to hash and verify passwords ([https://github.com/davidwood/
 Moment.js: used to handle dates
 UUID: used to generate unique IDs
 Morgan: color-coded request logging for Express
+SendMail: used to send token emails to charity users
 
 
 
