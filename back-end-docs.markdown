@@ -17,8 +17,11 @@ Headers should include 'content-type': 'application/json'
 
 ### /user.create
 Creates a new user, authorizes session
-Request: name: "", email: "", password: "" (letters, numbers, minlength 8), charityToken: "" (optional)
+Request: name: "", email: "", password: "" (letters, numbers, minlength 8)
 Response: user: {}, token: ""
+
+###  /user.create.charity
+Creates a new user and charity with required charityToken, authorizes session
 
 ### /user.login
 Authorizes user
