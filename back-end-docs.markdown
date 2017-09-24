@@ -22,6 +22,8 @@ Response: user: {}, token: ""
 
 ###  /user.create.charity
 Creates a new user and charity with required charityToken, authorizes session
+Request: name: "", email: "", password: "" (letters, numbers, minlength 8), charityToken: "", charityName: ""
+Reponse: user: {}, charity: {}, token: ""
 
 ### /user.login
 Authorizes user
@@ -33,8 +35,8 @@ Creates a charity token for an email, sends email
 Request: email: "", adminPassword: "password1"
 Response: charityToken: {}
 
-### /charity.create
-Creates a charity for a charityUser
+### /charity.edit
+Updates a charity
 Headers: Authorization = <token from user.create / user.login>
 Request: name: "", description: ""
 Response: charity: {}
