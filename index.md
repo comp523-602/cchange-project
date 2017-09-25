@@ -6,8 +6,8 @@ layout: basic
 
 # About
 
-**URL**
-cchange.ga
+**Landing Page**
+[cchange.ga](http://cchange.ga)
 
 **Project Description**
 ¢Change is a photo filter app that uses micro-donations to share awareness, support non-profit organizations and effortlessly make an impact.
