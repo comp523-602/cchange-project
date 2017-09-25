@@ -5,8 +5,10 @@ position: 1
 layout: basic
 ---
 
-**Repository**
-https://github.com/comp523-602
+**Repositories**
+cchange-api - [https://github.com/comp523-602/cchange-api](https://github.com/comp523-602/cchange-api)
+cchange-admin - [https://github.com/comp523-602/cchange-admin](https://github.com/comp523-602/cchange-admin)
+cchange-App - [https://github.com/comp523-602/cchange-App](https://github.com/comp523-602/cchange-App)
 
 **Platform and Technologies**
 * Web app and mobile: Posters will generally be using mobile, but people posting on behalf of charities and people navigating from other social media sites may be using a computer.
