@@ -6,12 +6,12 @@ position: 2
 
 The following is an initial outline of views which will be created to provide required functionality to users:
 
-### Administrative Interface
+## Administrative Interface
 
 **Dashboard** - Administrators can invite charities to join cChange with an email address and their admin credentials - an email with a link contained a charity token will be sent to this email address.  
 API Calls: /charityToken.create
 
-### Common Visitor, User & Charity User interfaces
+## Common Visitor, User & Charity User interfaces
 
 These interfaces will be displayed this same to visiting users and authenticated users (with the exception of the display of the user's name and a user maintenance menu if the session is authenticated, and relevant buttons for editing and deleting content where applicable based on the authentication of the user).
 
@@ -39,12 +39,12 @@ API Calls: /post
 **User Profile** - The user profile display's a users profile picture, name and bio. The user's profile will list the users donation activity (if applicable), and all or some of the users' recent posts (if applicable).  
 API Calls: /user, /posts, /donations
 
-### Common User and Charity User interfaces
+## Common User and Charity User interfaces
 
 **User Settings** - This view allows a user to update their name, email address and password.  
 API Calls: /user.email, /user.password
 
-### Charity interfaces
+## Charity interfaces
 
 **Charity Signup** - Form to accept a user's name, email and password, as well as the name of their charity. This page will only function correctly if it is accessed with a link containing a non-expired, unused charity token.  
 API Calls: /user.create.charity
@@ -64,7 +64,7 @@ API Calls: /update, /update.edit
 **Donation settings** - This view will allow a charity to manage the bank their donations will be deposited to, and will also formally list incoming deposits.
 API Calls: /charity, /donations, /charity.bank 
 
-### User Interfaces
+## User Interfaces
 
 **User Signup** - This view will allow regular cChange users to create an account. Fields include name, email, password and confirm password.  
 API Calls: /user.create
