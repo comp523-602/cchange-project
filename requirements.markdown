@@ -173,7 +173,11 @@ The following are views which will be created to provide functionality to users:
 
 **Dashboard** - Administrators can invite charities to join cChange with an email address and their admin credentials - an email with a link contained a charity token will be sent to this email address.
 
-### Visitor, User & Charity User interfaces
+### Common Visitor, User & Charity User interfaces
+
+These interfaces will be displayed this same to visiting users and authenticated users (with the exception of the display of the user's name and a user maintenance menu if the session is authenticated, and relevant buttons for editing and deleting content where applicable based on the authentication of the user).
+
+**Log In** - Form to accept email and password, allows users and charity users to start an authenticated session.
 
 **Charity Profile** - The charity profile displays a logo, name, description for a charity, as well as lists of their campaigns, updates and approved posts.
 
@@ -181,11 +185,9 @@ The following are views which will be created to provide functionality to users:
 
 **Update **- The update page display the date of the update, the title of the update, and the body or description of the update.
 
-**User Profile **
+**User Profile - **The user profile display's a users profile picture, name and bio. The user's profile will list the users donation activity (if applicable), and all or some of the users' recent posts (if applicable).
 
-### Charity Interface
-
-**Charity Log In** - Form to accept email and password, allows charity users to start an authenticated session to manage their charity profile, campaigns, and updates.
+### Charity interfaces
 
 **Charity Signup** - Form to accept a user's name, email and password, as well as the name of their charity. This page will only function correctly if it is accessed with a link containing a non-expired, unused charity token.
 
