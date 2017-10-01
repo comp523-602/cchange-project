@@ -13,7 +13,7 @@ Interested friends can following the accompanying link into ¢Change's mobile-fr
 
 ¢Change will invite a list of approved charities to create and maintain their own presence on the ¢Change application. Approved charities will be asked to post an update about how they're using the funds they receive on an ongoing basis. Each charity will have an interface they can use to setup and manage their profile, create and manage campaigns, and post updates. Charities will also have passive and active control measures over the content that is publicly associated with their brand.
 
-**Tweet**\
+**Tweet**
 ¢Change is a photo filter app that uses micro-donations to share awareness, support non-profit organizations and effortlessly make an impact.
 
 ## User Stories
