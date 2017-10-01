@@ -2,7 +2,7 @@
 title: Test Plan
 date: 2017-09-27 16:01:00 -04:00
 position: 6
-layout: basic
+layout: default
 ---
 
 ## Platforms:
@@ -35,7 +35,7 @@ Expected Result:
 
 1. Site redirects to profile page displaying correct account name
 
-### 
+###
 
 ### Create charity account
 
@@ -68,7 +68,7 @@ Procedure:
 
 1. Navigate to cchange website
 
-2. login with Charity account email: and password: 
+2. login with Charity account email: and password:
 
 3. Click on edit charity
 
@@ -76,4 +76,4 @@ Procedure:
 
 Expected Result:
 
-1. 
+1.

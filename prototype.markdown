@@ -2,7 +2,7 @@
 title: Prototype
 date: 2017-09-10 17:42:00 -04:00
 position: 2
-layout: basic
+layout: default
 ---
 
 # Front-end outline
@@ -81,5 +81,5 @@ A post is an image posted by a user to collect donations for a campaign. If a us
 Properties: userGUID, caption, image, campaignGUID, charityGUID, donations[GUID], firstDonationGUID(null)
 
 **Donation**
-A donation is the representation of a transaction made between a user and a charity (where a user has a payment method and a charity has a deposit method). Donations are made to posts (which are attached to campaigns), to campaigns, or to charities. 
+A donation is the representation of a transaction made between a user and a charity (where a user has a payment method and a charity has a deposit method). Donations are made to posts (which are attached to campaigns), to campaigns, or to charities.
 Properties: userGUID, charityGUID, campaignGUID(null), postGUID(null), date, amount, transactionID

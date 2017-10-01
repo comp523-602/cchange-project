@@ -2,7 +2,7 @@
 title: Technology
 date: 2017-09-10 16:50:00 -04:00
 position: 1
-layout: basic
+layout: default
 ---
 
 **Repositories**

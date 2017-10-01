@@ -2,7 +2,7 @@
 title: Back-end Docs
 date: 2017-09-13 20:50:00 -04:00
 position: 4
-layout: basic
+layout: default
 ---
 
 ## Access

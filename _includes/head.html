@@ -11,7 +11,22 @@
 			<span class="small">{{ site.section }}</span>
 			<h2>{{ site.title }}</h2>
 			<div class="navigation">
-				
+				{% assign sorted_pages = site.html_pages | sort:"position" %}
+				{% for item in sorted_pages %}
+					<a href="{{ site.url }}{{ item.url }}"
+						class='{% if item.url == page.url %} active{% endif %}'>
+						{{ item.title }}
+					</a>
+				{% endfor %}
+			</div>
+			<div class="sprints">
+				<b>Sprints</b>
+				{% for item in site.sprints %}
+					<a href="{{ site.url }}{{ item.url }}"
+						class='{% if item.url == page.url %} active{% endif %}'>
+						{{ item.title }}
+					</a>
+				{% endfor %}
 			</div>
 		</header>
 
