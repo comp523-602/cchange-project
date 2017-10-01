@@ -70,7 +70,7 @@ Administration Panel: [admin.cchange.ga](http://admin.cchange.ga/)
 Front-end documentation: [docs.cchange.ga](http://docs.cchange.ga/)  
 Back-end documentation: [api.cchange.ga](http://api.cchange.ga)  
 
-**Code**
+**Code**  
 Project Website: [comp523-602/project](https://github.com/comp523-602/project)  
 Application: [comp523-602/cchange-App](https://github.com/comp523-602/cchange-App)  
 Administration Panel: [comp523-602/cchange-admin](https://github.com/comp523-602/cchange-admin)  
