@@ -22,7 +22,8 @@ Interested friends can following the accompanying link into ¢Change's mobile-fr
 * share to other platforms
 * simple interface
 
-**Weekly Schedule**
+## Schedule of Meetings  
+
 Team Meeting: Thursday at 3:30pm  
 Class Meeting: Monday at 12:35pm  
 Client Meeting: Friday at 1:00pm near Franklin Street  
