@@ -181,11 +181,11 @@ These interfaces will be displayed this same to visiting users and authenticated
 
 **Charity Profile** - The charity profile displays a logo, name, description for a charity, as well as lists of their campaigns, updates and approved posts.
 
-**Campaign **- The campaign page displays the title, description and pictures associated with a campaign. This page lists updates added to the campaign, and any approved posts that have been made in support of the campaign. This page will have buttons to donate or create a post in support of the campaign. This page will list information about how many donations have been made in support of a campaign.
+**Campaign** - The campaign page displays the title, description and pictures associated with a campaign. This page lists updates added to the campaign, and any approved posts that have been made in support of the campaign. This page will have buttons to donate or create a post in support of the campaign. This page will list information about how many donations have been made in support of a campaign.
 
-**Update **- The update page display the date of the update, the title of the update, and the body or description of the update.
+**Update** - The update page display the date of the update, the title of the update, and the body or description of the update.
 
-**User Profile - **The user profile display's a users profile picture, name and bio. The user's profile will list the users donation activity (if applicable), and all or some of the users' recent posts (if applicable).
+**User Profile** - The user profile display's a users profile picture, name and bio. The user's profile will list the users donation activity (if applicable), and all or some of the users' recent posts (if applicable).
 
 ### Charity interfaces
 
@@ -193,4 +193,4 @@ These interfaces will be displayed this same to visiting users and authenticated
 
 **Edit Charity Profile** - This edit view allows charity users to update their charity's logo, name and description.
 
-**Manage Posts **- This view lists posts associated with a charity's campaigns and allows a charity to flag inappropriate or feature posts on their profile.
+**Manage Posts**- This view lists posts associated with a charity's campaigns and allows a charity to flag inappropriate or feature posts on their profile.
