@@ -22,12 +22,17 @@ header {
 		&:hover {color:#222;}
 		&.active {color:#222; font-weight:700;}
 	}
+	#toc {
+		a {color:#333;}
+	}
 	.navigation {
 		margin-top:30px;
+		#toc a {padding-left:10px;}
 	}
 	.sprints {
 		margin-top:30px;
-		a {margin-left:15px;}
+		a {padding-left:10px;}
+		#toc a {padding-left:20px;}
 	}
 }
 
