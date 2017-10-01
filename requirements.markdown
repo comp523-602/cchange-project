@@ -163,4 +163,4 @@ Our team is using GitHub's IDE tools (Github desktop and/or Atom). These tools h
 
 ## Architecture
 
-![IMG_0308.jpg](/uploads/IMG_0308.jpg)
+![IMG_0308.jpg](/project/uploads/IMG_0308.jpg)
