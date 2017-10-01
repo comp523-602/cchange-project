@@ -204,7 +204,7 @@ API Calls: /user, /posts, /donations
 
 ### Common User and Charity User interfaces
 
-**Settings** - This view allows a user to update their name, email address and password.  
+**User Settings** - This view allows a user to update their name, email address and password.  
 API Calls: /user.email, /user.password
 
 ### Charity interfaces
