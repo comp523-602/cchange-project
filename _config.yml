@@ -1,7 +1,10 @@
 ---
-title: ¢Change
+title: "¢Change"
 timezone: America/New_York
 collections:
+  posts:
+    title: Posts
+    output: true
   sprints:
     title: Sprints
     output: true
