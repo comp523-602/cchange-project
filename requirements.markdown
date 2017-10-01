@@ -232,7 +232,8 @@ API Calls: /charity, /donations, /charity.bank
 **User Signup** - This view will allow regular cChange users to create an account. Fields include name, email, password and confirm password.  
 API Calls: /user.create
 
-**Profile Edit** - This view will allow a user to edit their name or profile picture.
+**Profile Edit** - This view will allow a user to edit their name, bio or profile picture.  
+API Calls: /user.edit
 
 **Create Post** - This view will allow a user to create a new post. This view will optionally accept a campaign ID if the view is accessed by a user who clicks a button on a campaign page specifically to support that campaign. This view will accept a photo upload (which must be cropped to a square), a caption, a way to navigate through possible campaigns (if one is not provided), and will also accept a donation amount if the users wants to donate while creating the post.  
 API Calls: /post.create
