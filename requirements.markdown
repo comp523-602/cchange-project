@@ -164,3 +164,31 @@ Our team is using GitHub's IDE tools (Github desktop and/or Atom). These tools h
 ## Architecture
 
 ![IMG_0308.jpg](/uploads/IMG_0308.jpg)
+
+## Prototype
+
+The following are views which will be created to provide functionality to users:
+
+### Administrative Interface
+
+**Dashboard** - Administrators can invite charities to join cChange with an email address and their admin credentials - an email with a link contained a charity token will be sent to this email address.
+
+### Visitor, User & Charity User interfaces
+
+**Charity Profile** - The charity profile displays a logo, name, description for a charity, as well as lists of their campaigns, updates and approved posts.
+
+**Campaign **- The campaign page displays the title, description and pictures associated with a campaign. This page lists updates added to the campaign, and any approved posts that have been made in support of the campaign. This page will have buttons to donate or create a post in support of the campaign. This page will list information about how many donations have been made in support of a campaign.
+
+**Update **- The update page display the date of the update, the title of the update, and the body or description of the update.
+
+**User Profile **
+
+### Charity Interface
+
+**Charity Log In** - Form to accept email and password, allows charity users to start an authenticated session to manage their charity profile, campaigns, and updates.
+
+**Charity Signup** - Form to accept a user's name, email and password, as well as the name of their charity. This page will only function correctly if it is accessed with a link containing a non-expired, unused charity token.
+
+**Edit Charity Profile** - This edit view allows charity users to update their charity's logo, name and description.
+
+**Manage Posts **- This view lists posts associated with a charity's campaigns and allows a charity to flag inappropriate or feature posts on their profile.
