@@ -2,21 +2,17 @@
 <html>
 	<head>
 		<title>{{ site.title }}: {{ page.title }}</title>
-		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 		<link rel="stylesheet" href="{{ site.url }}/css/main.css">
 	</head>
 
 	<body>
 
-		<header class="section">
-			<div class="container">
-				<h2><span class="site_title">{{ site.title }} / </span>{{ page.title }}</h2>
-				<div class="navigation">
-					{% assign sorted_pages = site.html_pages | sort:"position" %}
-					{% for page in sorted_pages %}<a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>{% endfor %}
-				</div>
+		<header>
+			<span class="small">{{ site.section }}</span>
+			<h2>{{ site.title }}</h2>
+			<div class="navigation">
+				
 			</div>
 		</header>
 
-		<div class="content section">
-			<div class="container">
+		<div class="content">

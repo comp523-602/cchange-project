@@ -1,10 +1,7 @@
 ---
-title: COMP 523.602 (CChange)
+title: ¢Change
 timezone: America/New_York
 collections:
-  posts:
-    title: Posts
-    output: true
   sprints:
     title: Sprints
     output: true
@@ -12,6 +9,6 @@ collections:
     title: Uploads
     output: true
 url: "/project"
-footer_text: Jonathan Ng / Daniel Flynt / Tomas Roy
+section: COMP 523.602
 sass:
   style: compressed

@@ -3,45 +3,19 @@
 
 // Universals
 html, body {margin:0px; padding:0px;}
+div {display:border-box;}
 
 // Fonts
-body {font-family:'Roboto', sans-serif; font-size:16px; line-height:1.5;}
+body {font-family:'Helvetica', 'Arial', sans-serif; font-size:16px; line-height:1.5;}
 h1, h2, h3 {display:block; margin:0px;}
 h1 {font-size:24px;}
 h2 {font-size:20px;}
 h3 {font-size:18px;}
 
-// Layout
-.container {max-width:800px; padding:0px 30px; margin:0px auto;}
-.section {padding:30px 0px;}
-
 // Header & Footer
 header {
-	background:#eee; border-bottom:1px solid #ddd;
-	.site_title {color:#666;}
-	.navigation {
-		margin-top:10px;
-		a {display:inline-block; margin-right:10px; color:inherit;}
-	}
-}
-footer {
-	border-top:1px solid #ddd; text-align:center;
+	position:fixed; left:0px; top:0px; padding:30px; width:240px; height:100%; overflow-y:scroll;
 }
 
 // Content
-.content {
-	h1, h2, h3 {display:inline-block;}
-	ul {
-		margin:0px; padding:0px; padding-left:30px;
-		li {
-			display:inline-block;
-			&:before {content:"\2022"; margin-right:5px; display:inline-block;}
-		}
-	}
-	pre {
-		br {
-			content: " ";
-    		display: none;
-		}
-	}
-}
+.content {margin-left:240px; padding:30px; max-width:640px;}
