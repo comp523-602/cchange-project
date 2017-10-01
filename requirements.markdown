@@ -17,6 +17,7 @@ Interested friends can following the accompanying link into ¢Change's mobile-fr
 
 ## User Stories
 
+
 ### Someone wants to support a cause they care about
 
 This user wants to publicly support a cause they are passionate about. They want to raise awareness for the cause and, if possible, help further this cause by collecting donations.
