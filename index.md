@@ -66,7 +66,7 @@ Client
 Application: [cchange.ga](http://cchange.ga/)  
 Administration Panel: [admin.cchange.ga](http://admin.cchange.ga/)  
 
-**Documentation**
+**Documentation**  
 Front-end documentation: [docs.cchange.ga](http://docs.cchange.ga/)  
 Back-end documentation: [api.cchange.ga](http://api.cchange.ga)  
 
