@@ -6,7 +6,7 @@ layout: default
 
 ## Project Introduction
 
-¢Change is a social network that allows users to support they causes they care about by posting photos that support a charity campaign and sharing these photos, with an added banner, to their existing social network. ¢Change posts can be 'liked', or supported, with micro-donations. ¢Change campaigns are created and maintained by a group of approved charities that can interface with and update their supporters through the ¢Change application.
+¢Change is a social network that allows users to support the causes they care about by posting photos that support a charity campaign and sharing these photos, with an added banner, to their existing social networks. ¢Change posts can be 'liked', or supported, with micro-donations. ¢Change campaigns are created and maintained by a group of approved charities that can interface with and update their supporters through the ¢Change application.
 
 **Basic Requirements**
 * micro-donations
