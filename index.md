@@ -37,7 +37,7 @@ Project Manager
 
 **Tomas Roy**  
 (704) 771-2565  
-tomas7@live.unc.edu  
+toams7@live.unc.edu  
 Software Architect  
 
 **Daniel Flynt**  
@@ -59,3 +59,19 @@ Client
 * Task assignment should be agreed upon by all team members
 * Tasks should be split evenly according to expertise
 * Disagreements should be voiced over Private team slack or at meetings and resolved as soon as possible
+
+## Deliverables
+
+**Software**  
+Application: [cchange.ga](http://cchange.ga/)  
+Administration Panel: [admin.cchange.ga](http://admin.cchange.ga/)  
+
+**Documentation**
+Front-end documentation: [docs.cchange.ga](http://docs.cchange.ga/)  
+Back-end documentation: [api.cchange.ga](http://api.cchange.ga)  
+
+**Code**
+Project Website: [comp523-602/project](https://github.com/comp523-602/project)  
+Application: [comp523-602/cchange-App](https://github.com/comp523-602/cchange-App)  
+Administration Panel: [comp523-602/cchange-admin](https://github.com/comp523-602/cchange-admin)  
+API: [comp523-602/cchange-api](https://github.com/comp523-602/cchange-api]  
