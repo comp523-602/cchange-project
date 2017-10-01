@@ -17,7 +17,6 @@ Interested friends can following the accompanying link into ¢Change's mobile-fr
 
 ## User Stories
 
-
 ### Someone wants to support a cause they care about
 
 This user wants to publicly support a cause they are passionate about. They want to raise awareness for the cause and, if possible, help further this cause by collecting donations.
@@ -81,19 +80,56 @@ This user wants to do more charitable giving, and is interested in learning more
 3. User browses for ongoing campaigns and donates to these campaigns OR users browses for recent or local posts and donates to the campaigns these posts supports
 
 ### A charity wants to increase publicity about their causes and raise money for their cause
+
 This user helps run and manage a non-profit and wants to garner support using ¢Change.
+
 1. User requests an invitation to ¢Change.
+
 2. ADMIN: ¢Change administrators review the user's charity, and potentially invite the user to join.
+
 3. User clicks a link in the invitation email and is prompted to create an account with their information and the name of their charity.
+
 4. User finishes setting up their charity's profile by adding a description and their charity's logo.
+
 5. User creates a campaign which ¢Change users can support. They add a name, description, and any photos that will help draw support for their campaign.
 
 ### A charity wants to increase trust with their donors by communicating about the work they do
+
 1. Existing charity user logs in to their account
+
 2. User chooses an ongoing campaign and creates a simple text update for this campaign.
 
 ### A charity wants to control the content that is publicly associated with their brand
+
 1. Existing charity user logs in to their account
-2. User navigates to a view where posts supporting their campaign are listed. 
-3. User can flag posts they think are inappropriate, and these posts will be removed from the ¢Change network* OR user can select posts they want to be displayed on their profile or campaign page.
-*Posts removed from the ¢Change network cannot be automatically removed from the other social networks they have been shared to.
+
+2. User navigates to a view where posts supporting their campaign are listed.
+
+3. User can flag posts they think are inappropriate, and these posts will be removed from the ¢Change network\* OR user can select posts they want to be displayed on their profile or campaign page.
+   \*Posts removed from the ¢Change network cannot be automatically removed from the other social networks they have been shared to.
+
+## Personas
+
+### Users 18-25
+
+**Persona:**  
+Students or people just entering the workforce who are likely to learn about ¢change by seeing their friends or followers making posts with the ¢change banner. They are drawn to ¢change because they view it as an easy way to communicate their concern about current events and to let their friends know where they stand on pressing issues.
+
+**Story**  
+(18-year old college freshman): “I’m tired of hearing about how we’re all doomed and the world is going to shit. I want to do something, even if it’s a little something, to make the world better. ¢Change helps me find the organizations that are doing important work, whether in the area of climate change, racial justice, the food system, fracking, etc. It motivates me to elevate my posts, so that friends or even strangers might be inspired to give to great organizations that are committed to the causes I care about. If my post inspires others to give, then my impact with 5¢ can grow to thousands of dollars. That makes me feel like I’m doing something more than waiting for the world to implode.”
+
+### Users 25-40
+
+**Persona:**  
+This is someone who uses social media platforms somewhat to a great deal. They probably follow some non-profits or more socially/eco conscious folks on Facebook or Instagram. They would be drawn to ¢change because perhaps they have guilt for not doing more to contribute to issues that they want to see eradicated, but never feel that they the have extra income to make a significant donation. This is the first time they have seen an option for micro donating and that appeals to them.
+
+**Story**  
+(38-year old Program Manager at 350.org): “We’re still financially dependent on corporations, large foundations, and wealthy individuals to fund our work. Even to become a ‘Climate Defender,’ the minimum donation is $9/mo. ¢Change allows us to accept smaller donations from a larger base of the age cohort that comprises our activists. So, instead of appealing to one group for fund raising (wealthy donors) and another for activism (young adults 16-35), ¢Change gives us a new avenue to engage more deeply with our target audience. Because their finance model aggregates micro-donations, we don’t have to deal to the administrative challenge of small donors. Instead we get an annual charitable gift summary on 12/1, and they handle the receipt to donors for tax purposes. All we have to do is post activities and events and repost some of the photos that generate the highest collective giving.”
+
+### Users 40-60
+
+**Persona:**  
+These are folks who maybe use Facebook, but might not use other social media platforms as much. They are long time supporters or have recently become supporters of different non-profit organizations. They get an email from the organizations they support, telling them about ¢change. The organizations assure them that ¢change has a secure banking system and that it has their seal of approval. Maybe most of these people don’t think about it much, maybe they tell their kids about it. The next time there is a current event crisis that relates to one of the non-profits they support, they get another email asking them to help, and using ¢change is one of the ways they can do that.
+
+**Story**  
+(46-year old High School English Teacher): “My students ask me what they can do. They’re beyond being angry and I haven’t know wht to offer them. ¢Change is a way to learn about all the great things that are happening in the world that the mass media and even social media rarely talk about. They have no idea that there’s an NGO in Tanzania called Apopo that has trained rats to sniff our landmines. It is saving thousands of lives and maimings ever year. In fact, there are over two million great organizations that are helping improve life on Earth. ¢Change is fun to browse and learn about those worthy organizations. They can make a nominal donation and perhaps they will find themselves working for one of these great organizations later in life.”
