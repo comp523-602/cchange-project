@@ -148,14 +148,14 @@ Cloudinary is a free Content Distribution Network which provides pre-build tools
 **[NodeJS](https://nodejs.org/en/) and [Express](https://expressjs.com/)**
 NodeJS is a JavaScript runtime engine that runs on UNIX systems. Express is a library which listens to a IP/port combination and accepts and responds to HTTP requests. This platform was chosen because of the broad availability of well-documented plugins which can expedite development and because it shortens the learning curve between front-end and back-end codebases.
 
-**(MongoDB)[https://www.mongodb.com/] and (Mongoose)[http://mongoosejs.com/docs/guide.html\]**
+**(MongoDB)[https://www.mongodb.com/] and (Mongoose)[http://mongoosejs.com/docs/guide.html]**
 MongoDB is a NoSQL relational database that can be hosted on UNIX systems. Mongoose is a JavaScript library that provides interfaces between NodeJS programs and a MongoDB instance. This platform was chosen because its object storage mirrors the same format of JSON, which is the object-notation our server application uses.
 
 ### Server Selection
 
 Our project website is hosted with Github Pages.
 
-Our API, administration panel, application, documentation and database are all served from a virtual Ubuntu machine which our client rents from a service called (Digital Ocean)\[https://www.digitalocean.com/\]. This server has a dedicated IP address. HTTP Requests made to this server are handled using (Apache's HTTP Server)\[https://httpd.apache.org/\]. Apache routes individual subdomains to individual ports or static directories for each of our deployed tools.
+Our API, administration panel, application, documentation and database are all served from a virtual Ubuntu machine which our client rents from a service called (Digital Ocean)[https://www.digitalocean.com/]. This server has a dedicated IP address. HTTP Requests made to this server are handled using (Apache's HTTP Server)[https://httpd.apache.org/]. Apache routes individual subdomains to individual ports or static directories for each of our deployed tools.
 
 ### Development Environment
 
