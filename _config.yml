@@ -8,6 +8,9 @@ collections:
   sprints:
     title: Sprints
     output: true
+  specs:
+    title: Specs
+    output: true
   uploads:
     title: Uploads
     output: true

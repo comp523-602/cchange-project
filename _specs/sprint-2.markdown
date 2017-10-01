@@ -1,18 +1,37 @@
 ---
-title: Master Interface Plan
-date: 2017-10-01 16:43:00 -04:00
-position: 2
+title: Sprint 2
+date: 2017-10-01 12:36:00 -04:00
 layout: default
 ---
 
-The following is an initial outline of views which will be created to provide required functionality to users:
+## Project Concept
+¢Change hopes to create a social sharing experience that makes it easy for people to publicly support the causes they care about and encourage their friends to do the same. The user experiences begins with posting a photo. With each photo post, users select a ongoing campaign sponsored by a ¢Change-approved charity, and are prompted to share this photo post on existing social networking profiles like Facebook and Twitter. The user's friends will see the user's photo attached to a small banner with the selected charity's logo and the name of the selected campaign.
 
-## Administrative Interface
+Interested friends can following the accompanying link into ¢Change's mobile-friendly platform, where they are given options to make a micro-donation to the campaign their friend supports, learn more about the cause their friend is passionate about, and view the other causes their friend supports. If they are moved to donate, they'll need to set up an account, and will hopefully consider supporting other campaigns by creating their own post.
+
+¢Change will invite a list of approved charities to create and maintain their own presence on the ¢Change application. Approved charities will be asked to post an update about how they're using the funds they receive on an ongoing basis. Each charity will have an interface they can use to setup and manage their profile, create and manage campaigns, and post updates. Charities will also have passive and active control measures over the content that is publicly associated with their brand.
+
+**Tweet**  
+¢Change is a photo filter app that uses micro-donations to share awareness, support non-profit organizations and effortlessly make an impact.
+
+## User Types
+* Visiting users
+* Users
+* Charity users
+
+## Requirements
+* Visitors can view charities, campaigns, and updates, as well as the posts and profiles of other users.
+* Users can create account, edit their profile, make posts, make donations, manage their bank settings, and view their donation history.
+* Charity users can create an account with secure approval, manage their charity, create and edit campaigns, create and edit updates, approve and flag posts, manage their bank settings, and view their donation history.
+
+## Interfaces
+
+### Administrative Interface
 
 **Dashboard** - Administrators can invite charities to join cChange with an email address and their admin credentials - an email with a link contained a charity token will be sent to this email address.  
 API Calls: /charityToken.create
 
-## Common Visitor, User & Charity User interfaces
+### Common Visitor, User & Charity User interfaces
 
 These interfaces will be displayed this same to visiting users and authenticated users (with the exception of the display of the user's name and a user maintenance menu if the session is authenticated, and relevant buttons for editing and deleting content where applicable based on the authentication of the user).
 
@@ -40,12 +59,12 @@ API Calls: /post
 **User Profile** - The user profile display's a users profile picture, name and bio. The user's profile will list the users donation activity (if applicable), and all or some of the users' recent posts (if applicable).  
 API Calls: /user, /posts, /donations
 
-## Common User and Charity User interfaces
+### Common User and Charity User interfaces
 
 **User Settings** - This view allows a user to update their name, email address and password.  
 API Calls: /user.email, /user.password
 
-## Charity interfaces
+### Charity interfaces
 
 **Charity Signup** - Form to accept a user's name, email and password, as well as the name of their charity. This page will only function correctly if it is accessed with a link containing a non-expired, unused charity token.  
 API Calls: /user.create.charity
@@ -63,9 +82,9 @@ API Calls: /campaign, /campaign.edit
 API Calls: /update, /update.edit
 
 **Donation settings** - This view will allow a charity to manage the bank their donations will be deposited to, and will also formally list incoming deposits.
-API Calls: /charity, /donations, /charity.bank 
+API Calls: /charity, /donations, /charity.bank
 
-## User Interfaces
+### User Interfaces
 
 **User Signup** - This view will allow regular cChange users to create an account. Fields include name, email, password and confirm password.  
 API Calls: /user.create

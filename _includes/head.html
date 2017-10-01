@@ -27,13 +27,24 @@
 					{% if item.url == page.url %}<div id="toc"></div>{% endif %}
 				{% endfor %}
 			</div>
-			<div class="sprints">
+			<div class="subnav">
 				<b>Sprints</b>
 				{% for item in site.sprints %}
 					<a href="{{ site.url }}{{ item.url }}"
 						class='{% if item.url == page.url %} active{% endif %}'>
 						{{ item.title }}
 					</a>
+					{% if item.url == page.url %}<div id="toc"></div>{% endif %}
+				{% endfor %}
+			</div>
+			<div class="subnav">
+				<b>Specs</b>
+				{% for item in site.specs %}
+					<a href="{{ site.url }}{{ item.url }}"
+						class='{% if item.url == page.url %} active{% endif %}'>
+						{{ item.title }}
+					</a>
+					{% if item.url == page.url %}<div id="toc"></div>{% endif %}
 				{% endfor %}
 			</div>
 		</header>

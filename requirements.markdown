@@ -13,7 +13,7 @@ Interested friends can following the accompanying link into ¢Change's mobile-fr
 
 ¢Change will invite a list of approved charities to create and maintain their own presence on the ¢Change application. Approved charities will be asked to post an update about how they're using the funds they receive on an ongoing basis. Each charity will have an interface they can use to setup and manage their profile, create and manage campaigns, and post updates. Charities will also have passive and active control measures over the content that is publicly associated with their brand.
 
-**Tweet  **
+**Tweet**  
 ¢Change is a photo filter app that uses micro-donations to share awareness, support non-profit organizations and effortlessly make an impact.
 
 ## User Stories
@@ -139,16 +139,16 @@ These are folks who maybe use Facebook, but might not use other social media pla
 
 ### Platform Selection
 
-**React**
-[React](https://reactjs.org/) is a JavaScript library maintained by Facebook that handles the binding model data to HTML components. This platform was chosen because it runs in the browser but can also be compiled into native mobile applications - this functionality is important to allow users to view posts on the web without needing to download an application. Because of time constraints, native applications will not be compiled this semester, but the client can choose to compile these later.
+**Front-end: [React](https://reactjs.org/)**  
+React is a JavaScript library maintained by Facebook that handles the binding model data to HTML components. This platform was chosen because it runs in the browser but can also be compiled into native mobile applications - this functionality is important to allow users to view posts on the web without needing to download an application. Because of time constraints, native applications will not be compiled this semester, but the client can choose to compile these later.
 
-**[Cloudinary](https://cloudinary.com/) CDN**
+**Image hosting: [Cloudinary](https://cloudinary.com/) CDN**  
 Cloudinary is a free Content Distribution Network which provides pre-build tools for image uploads, storage and management. Cloudinary accepts images from our client application and returns a URL which is sent to our API upon receipt.
 
-**[NodeJS](https://nodejs.org/en/) and [Express](https://expressjs.com/)**
+**Back-end: [NodeJS](https://nodejs.org/en/) and [Express](https://expressjs.com/)**  
 NodeJS is a JavaScript runtime engine that runs on UNIX systems. Express is a library which listens to a IP/port combination and accepts and responds to HTTP requests. This platform was chosen because of the broad availability of well-documented plugins which can expedite development and because it shortens the learning curve between front-end and back-end codebases.
 
-**[MongoDB](https://www.mongodb.com/) and [Mongoose](http://mongoosejs.com/docs/guide.html)**
+**State Maintenance: [MongoDB](https://www.mongodb.com/) and [Mongoose](http://mongoosejs.com/docs/guide.html)**  
 MongoDB is a NoSQL relational database that can be hosted on UNIX systems. Mongoose is a JavaScript library that provides interfaces between NodeJS programs and a MongoDB instance. This platform was chosen because its object storage mirrors the same format of JSON, which is the object-notation our server application uses.
 
 ### Server Selection
