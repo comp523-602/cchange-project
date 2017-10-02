@@ -1,5 +1,5 @@
 ---
-title: Sprint 2
+title: Sprint Two
 date: 2017-10-01 12:36:00 -04:00
 layout: default
 ---
