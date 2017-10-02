@@ -1,7 +1,7 @@
 ---
 title: Functional Spec
 date: 2017-10-02 13:41:00 -04:00
-position: 5
+position: 6
 ---
 
 ## User Types
