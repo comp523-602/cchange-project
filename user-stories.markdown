@@ -1,7 +1,7 @@
 ---
 title: User Stories
 date: 2017-10-02 13:40:00 -04:00
-position: 1
+position: 2
 ---
 
 ### Someone wants to support a cause they care about

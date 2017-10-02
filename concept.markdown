@@ -1,6 +1,7 @@
 ---
 title: Concept
 date: 2017-10-02 13:41:00 -04:00
+position: 1
 ---
 
 ¢Change hopes to create a social sharing experience that makes it easy for people to publicly support the causes they care about and encourage their friends to do the same. The user experiences begins with posting a photo. With each photo post, users select a ongoing campaign sponsored by a ¢Change-approved charity, and are prompted to share this photo post on existing social networking profiles like Facebook and Twitter. The user's friends will see the user's photo attached to a small banner with the selected charity's logo and the name of the selected campaign.

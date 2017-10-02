@@ -1,7 +1,7 @@
 ---
 title: Personas
 date: 2017-10-02 13:39:00 -04:00
-position: 2
+position: 3
 ---
 
 ## Users 18-25
