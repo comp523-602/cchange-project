@@ -71,7 +71,8 @@ Administration Panel: [admin.cchange.ga](http://admin.cchange.ga/)
 
 **Documentation**  
 Front-end documentation: [appdocs.cchange.ga](http://appdocs.cchange.ga)  
-Back-end documentation: [api.cchange.ga](http://api.cchange.ga)
+Back-end documentation: [apidocs.cchange.ga](http://apidocs.cchange.ga)  
+Back-end manual: [api.cchange.ga](http://api.cchange.ga)
 
 **Code**  
 Project Website: [comp523-602/project](https://github.com/comp523-602/project)  
