@@ -78,7 +78,7 @@ Expected Result:
 
 ## Front-end Design Docs
 
-\[appdocs.cchange.ga\](http://appdocs.cchange.ga/)
+[appdocs.cchange.ga](http://appdocs.cchange.ga/)
 
 ## Back-end Design Docs
 
