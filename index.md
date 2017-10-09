@@ -75,6 +75,6 @@ Back-end documentation: [api.cchange.ga](http://api.cchange.ga)
 
 **Code**  
 Project Website: [comp523-602/project](https://github.com/comp523-602/project)  
-Application: [comp523-602/cchange-App](https://github.com/comp523-602/cchange-App)  
+Application: [comp523-602/cchange-app-v2](https://github.com/comp523-602/cchange-app-v2)  
 Administration Panel: [comp523-602/cchange-admin](https://github.com/comp523-602/cchange-admin)  
 API: [comp523-602/cchange-api](https://github.com/comp523-602/cchange-api)  
