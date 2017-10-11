@@ -122,9 +122,6 @@ cChange is a consumer-facing social network, and usage is designed to be intuiti
 Clone the repository
 `git clone https://github.com/comp523-602/cchange-api.git`
 
-Install required packages
-`npm install`
-
 Create a config.js file for your environment
 ```
 modules.exports = {
@@ -138,21 +135,53 @@ modules.exports = {
 }'
 ```
 
-Run the server
-`node server.js`
+### API Production Build
 
-### React Installation
-Clone the repository
-`git clone https://github.com/comp523-602/cchange-app-v2.git`
+**Location:** /home/repos/cchange-app-v2
+
+Pull latest changes
+`git pull origin master`
 
 Install required packages
 `npm install`
 
+Build routing documentation
+`gulp`
+
+Build code documentation
+`documentation build api/** -f html -o designdocs/`
+
+Restart documentation server
+`pm2 restart apidocsServer.js`
+
+Restart API server
+`pm2 restart server.js`
+
+### Front-end Installation
+Clone the repository
+`git clone https://github.com/comp523-602/cchange-app-v2.git`
+
+## Front-end Production Build
+
+**Location:** /home/repos/cchange-api
+
+Pull latest changes
+`git pull origin master`
+
+Install required packages
+`npm install`
+
+Publish documentation
+`documentation build src/** -f html -o docs`
+
+Restart documentation server
+`pm2 restart appdocsServer.js`
+
 Create a production build
 `npm run build`
 
-Start static production server
-`node appServer.js`
+Restart application server
+`pm2 restart appServer.js`
 
 ### Admin Installation
 Clone the repository
