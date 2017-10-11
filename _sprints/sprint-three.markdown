@@ -161,7 +161,7 @@ Restart API server
 Clone the repository
 `git clone https://github.com/comp523-602/cchange-app-v2.git`
 
-## Front-end Production Build
+### Front-end Production Build
 
 **Location:** /home/repos/cchange-api
 
