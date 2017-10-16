@@ -167,11 +167,15 @@ Expected Result:
 
 [appdocs.cchange.ga](http://appdocs.cchange.ga)
 
+Architecture: [https://comp523-602.github.io/project/architecture.html](https://comp523-602.github.io/project/architecture.html)
+
 ## Back-end Design Docs
 
 Code: [apidocs.cchange.ga](http://apidocs.cchange.ga)
 
 Routing: [api.cchange.ga](http://api.cchange.ga)
+
+Architecture: [https://comp523-602.github.io/project/architecture.html](https://comp523-602.github.io/project/architecture.html)
 
 ## User Manual
 
