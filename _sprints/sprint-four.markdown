@@ -41,15 +41,15 @@ API Calls: /user.create.charity
 
 **Charity** - Page displaying charity's name, description and logo.\
 Route: /charity/:guid\
-API Calls: /charity
+API Calls: /charity, /campaigns
 
 **Edit Charity** - This edit view allows charity users to update their charity's logo, name and description. The charity logo must be able to be cropped to a square.\
 Route: /charityEdit/:guid\
 API Calls: /charity, /charity.edit
 
-**Campaign** - Page displaying campaign's name and description.
+**Campaign** - Page displaying campaign's name and description. If signed in as a donor, one can create a post dedicated to the campaign.
 Route: /campaign/:guid\
-API Calls: /campaign
+API Calls: /campaign, /posts, /post.create
 
 **Create Campaign** - This view allows a charity to create a new campaign. This view has a form with a name field, description field, and photo-management section. Photos uploaded to this page cannot be cropped.\
 Route: /campaignCreate
@@ -62,12 +62,12 @@ API Calls: /campaign, /campaign.edit
 **Browse Charities** - This view will contain a search box and a menu with charity taxonomy and will display a list of charities. By default, it will show the most recently added charities.
 API Calls: /charities
 
-**Browse Campaigns** - This view will contain a search box and a menu with charity taxonomy and will display a list of campaigns. By default, it will show the most recently added campaigns.\
+**Browse Campaigns** - This view will contain a search box and a menu with charity taxonomy and will display a list of campaigns. By default, it will show the most recently added campaigns.
 API Calls: /campaigns
 
-**Post** - Page displaying Post's name and description.
-Route: /campaign/:guid\
-API Calls: /campaign
+**Browse Posts** - Page displaying Posts with name, image, and description.
+Route: /posts
+API Calls: /posts
 
 
 ## Test Plan
@@ -167,6 +167,20 @@ Procedure:
 Expected Result:
 
 1. Components are populated with correct information as AJAX call returns
+
+**Create Post**
+
+1. Navigate to cchange website
+
+2. login with Donor account email: and password:
+
+3. Navigate to campaign view page
+
+4. Create new post with image: and caption:
+
+Expected Result:
+
+1. Campaign and Posts pages now display post which was just created
 
 ## Front-end Design Docs
 
