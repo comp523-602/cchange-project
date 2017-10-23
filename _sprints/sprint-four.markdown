@@ -65,6 +65,11 @@ API Calls: /charities
 **Browse Campaigns** - This view will contain a search box and a menu with charity taxonomy and will display a list of campaigns. By default, it will show the most recently added campaigns.\
 API Calls: /campaigns
 
+**Post** - Page displaying Post's name and description.
+Route: /campaign/:guid\
+API Calls: /campaign
+
+
 ## Test Plan
 
 ### Platforms
