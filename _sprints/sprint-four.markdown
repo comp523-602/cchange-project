@@ -209,6 +209,9 @@ cChange is a consumer-facing social network, and usage is designed to be intuiti
 Clone the repository
 `git clone https://github.com/comp523-602/cchange-api.git`
 
+Install system imaging library
+`sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++`
+
 Create a config.js file for your environment
 
     modules.exports = {
@@ -218,7 +221,12 @@ Create a config.js file for your environment
       'secret': "<auth secret key>",
       'adminPassword': "<password for admin panel>",
       'sendGrid': "<SendGrid API key>",
-      'fromEmail': "<email to send mail as>"
+      'fromEmail': "<email to send mail as>",
+      'cloudinary': {
+          'cloud': "<name of cloud>",
+          'api": "<Cloudinary API key>",
+          'secret': "<Cloudinary SECRET key>",
+      }
     }'
 
 ### API Production Build
