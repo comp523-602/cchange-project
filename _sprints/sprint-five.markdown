@@ -47,8 +47,8 @@ API Calls: /charity, /campaigns
 Route: /charityEdit/:guid\
 API Calls: /charity, /charity.edit
 
-**Campaign** - Page displaying campaign's name and description. If signed in as a donor, one can create a post dedicated to the campaign.
-Route: /campaign/:guid\
+**Campaign** - Page displaying campaign's name and description. Lists posts made to this campaign.  
+Route: /campaign/:guid  
 API Calls: /campaign, /posts, /post.create
 
 **Create Campaign** - This view allows a charity to create a new campaign. This view has a form with a name field, description field, and photo-management section. Photos uploaded to this page cannot be cropped.\
@@ -68,6 +68,14 @@ API Calls: /campaigns
 **Browse Posts** - Page displaying Posts with name, image, and description.
 Route: /posts
 API Calls: /posts
+
+**Create Post** - Allows users to create a post for a provided campaign. Linked from the campaign page. Offers image crop functionality.  
+Route: /postCreate/:guid  
+API Calls: /post.create  
+
+**Post View** - Shows post made by user with shareable image. Allows user to make a 5 cent donation. Lists donation amounts and timestamps. Functionality unfinished.  
+Route: /post/:guid  
+API Calls: /post.create  
 
 
 ## Test Plan
@@ -285,7 +293,7 @@ Clone the repository
 
 ### Inviting charity users
 
-1. Visit (admin.cchange.ga)\[http://admin.cchange.ga/\]
+1. Visit (admin.cchange.ga)[http://admin.cchange.ga/]
 
 2. Enter the email address of a contact from the charity you are trying to invite
 
