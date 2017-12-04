@@ -82,7 +82,7 @@ Route: /addFundsView/:guid
 API Calls: /user.addFunds
 
 **Donation History** - Users can now go to any user's page and click the donation history button to see all of the campaigns and charities to which a specific user has donated.  
-Route: /donationHistoryView/:guid  
+Route: /donationHistoryView/:guid    
 API Calls: /donations
 
 **Update** - Charities can now send out an update that will be displayed on the homepage for each user. 
