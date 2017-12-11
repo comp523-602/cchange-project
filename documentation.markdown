@@ -70,6 +70,9 @@ Pull latest changes
 Install required packages
 `npm install`
 
+Ensure API address is correct
+Open cchange-app-v2/src/modules/Requests.js, update API constant variable
+
 Publish documentation
 `documentation build src/** -f html -o docs`
 
@@ -86,6 +89,57 @@ Restart application server
 
 Clone the repository
 `git clone https://github.com/comp523-602/cchange-admin.git`
+
+Ensure API address is correct
+Open cchange-admin/main.js, update API constant variable
+
+## Setting up Apache proxy
+
+Open Apache configuration directory
+`cd /etc/apache2/sites-available/`
+
+Create a new configuration file (change your-domain.com)
+`vim your-domain.com.conf`
+
+Setup the following configuration (change your-domain.com and path-to-admin-installation)
+```
+<VirtualHost *:80>
+    ServerName api.your-domain.com
+    ServerAlias www.api.your-domain.com
+    ProxyPreserveHost On
+    ProxyPass / http://your-domain.com:4000/
+    ProxyPassReverse / http://your-domain.com:4000/
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerName admin.your-domain.com
+    ServerAlias www.admin.your-domain.com
+    DocumentRoot /path-to-admin-installation
+</VirtualHost>
+
+<VirtualHost *:80>
+    ServerName your-domain.com
+    ServerAlias www.your-domain.com
+    ProxyPreserveHost On
+    ProxyPass / http://your-domain.com:3000/
+    ProxyPassReverse / http://your-domain.com:3000/
+</VirtualHost>
+```
+
+Enable site (replace your-domain.com)
+a2ensite your-domain.com.conf
+
+Restart apache
+sudo service apache2 restart
+
+## Full deployment process on a Linux machine (DigitalOcean)
+
+1. Access your machine using SSH - from a Unix terminal, type ssh username@IPAddress
+2. Setup a database at mLab.com
+2. Install, configure, and start API
+3. Install and build application
+4. Install administation in a web accessable directory
+5. Setup Apache proxy
 
 ## Inviting charity users
 
