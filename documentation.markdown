@@ -4,11 +4,9 @@ date: 2017-12-11 10:21:00 -05:00
 position: 7
 ---
 
-# Front-end Manual
+## Front-end Manual
 
 cChange is a consumer-facing social network, and usage is designed to be intuitive (users that feel they need to access a manual will likely not use the site). For this reason, instructions will appear where they are needed throughout the site. Instructions will be provided whenever fields only accept content of a certain kind (password limits, image limits, description limits). Instructions will also be provided when users are sharing content to social networks.
-
-# Administrator Manual
 
 ## API Installation
 
