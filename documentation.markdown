@@ -70,7 +70,7 @@ Pull latest changes
 Install required packages
 `npm install`
 
-Ensure API address is correct
+Ensure API address is correct  
 Open cchange-app-v2/src/modules/Requests.js, update API constant variable
 
 Publish documentation
@@ -90,7 +90,7 @@ Restart application server
 Clone the repository
 `git clone https://github.com/comp523-602/cchange-admin.git`
 
-Ensure API address is correct
+Ensure API address is correct  
 Open cchange-admin/main.js, update API constant variable
 
 ## Setting up Apache proxy
