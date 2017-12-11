@@ -8,6 +8,15 @@ position: 7
 
 cChange is a consumer-facing social network, and usage is designed to be intuitive (users that feel they need to access a manual will likely not use the site). For this reason, instructions will appear where they are needed throughout the site. Instructions will be provided whenever fields only accept content of a certain kind (password limits, image limits, description limits). Instructions will also be provided when users are sharing content to social networks.
 
+## Full deployment process on a Unix machine (such as DigitalOcean)
+
+1. Access your machine using SSH - from a Unix terminal, type ssh username@IPAddress
+2. Setup a database at mLab.com
+2. Install, configure, and start API
+3. Install and build application
+4. Install administation in a web accessable directory
+5. Setup Apache proxy
+
 ## API Installation
 
 Clone the repository
@@ -131,15 +140,6 @@ Enable site (replace your-domain.com)
 
 Restart apache
 `sudo service apache2 restart`
-
-## Full deployment process on a Linux machine (DigitalOcean)
-
-1. Access your machine using SSH - from a Unix terminal, type ssh username@IPAddress
-2. Setup a database at mLab.com
-2. Install, configure, and start API
-3. Install and build application
-4. Install administation in a web accessable directory
-5. Setup Apache proxy
 
 ## Inviting charity users
 
