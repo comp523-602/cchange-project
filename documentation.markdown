@@ -127,10 +127,10 @@ Setup the following configuration (change your-domain.com and path-to-admin-inst
 ```
 
 Enable site (replace your-domain.com)
-a2ensite your-domain.com.conf
+`a2ensite your-domain.com.conf`
 
 Restart apache
-sudo service apache2 restart
+`sudo service apache2 restart`
 
 ## Full deployment process on a Linux machine (DigitalOcean)
 
