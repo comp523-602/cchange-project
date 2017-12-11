@@ -8,10 +8,15 @@ position: 7
 
 cChange is a consumer-facing social network, and usage is designed to be intuitive (users that feel they need to access a manual will likely not use the site). For this reason, instructions will appear where they are needed throughout the site. Instructions will be provided whenever fields only accept content of a certain kind (password limits, image limits, description limits). Instructions will also be provided when users are sharing content to social networks.
 
-## Full deployment process on a Unix machine (such as DigitalOcean)
+## Full deployment process for a new Linux machine 
 
-1. Access your machine using SSH - from a Unix terminal, type ssh username@IPAddress
+1. Setup a Linux environment
+2. Purchase a domain name (later referred to as your-domain.com) and point your default A record to your Linux environment's IP address
 2. Setup a database at mLab.com
+3. Setup an email account at SendGrid.com
+1. Access your machine using SSH - from a Unix terminal, type ssh username@IPAddress
+
+
 2. Install, configure, and start API
 3. Install and build application
 4. Install administation in a web accessable directory
@@ -22,22 +27,25 @@ cChange is a consumer-facing social network, and usage is designed to be intuiti
 Clone the repository
 `git clone https://github.com/comp523-602/cchange-api.git`
 
+Enter the directory
+`cd cchange-api`
+
 Install system imaging library
 `sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++`
 
-Create a config.js file for your environment
+Create a config.js file for your environment (replace everything inside the brackets, including the brackets, with the correct information. The client can use the information we provided privately in our handoff, or they can create their own accounts (the latter is recommended).
 
     modules.exports = {
       'ip': "<Static IP address (from DigitalOcean) or localhost (127.0.0.1)>",
       'port': "<Any unused port - 4000 suggested>",
-      'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname>" (see mlab.com),
+      'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname (see mlab.com)>",
       'secret': "<any string of numbers/letters>",
       'adminPassword': "<any string of numbers/letters>",
       'sendGrid': "<SendGrid API key> (see sendgrid.com)",
       'fromEmail': "<email to send mail as>",
       'cloudinary': {
           'cloud': "<name of cloud>",
-          'api": "<Cloudinary API key>",
+          'api': "<Cloudinary API key>",
           'secret': "<Cloudinary SECRET key>",
       }
     }
@@ -80,7 +88,7 @@ Install required packages
 `npm install`
 
 Ensure API address is correct  
-Open cchange-app-v2/src/modules/Requests.js, update API constant variable
+Open cchange-app-v2/src/modules/Requests.js and update API constant variable. This should be changed to http://api.your-domain.com.
 
 Publish documentation
 `documentation build src/** -f html -o docs`
