@@ -19,12 +19,12 @@ Install system imaging library
 Create a config.js file for your environment
 
     modules.exports = {
-      'ip': "<Static IP or localhost (127.0.0.1)>",
-      'port': "<any unused port>",
-      'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname>",
-      'secret': "<auth secret key>",
-      'adminPassword': "<password for admin panel>",
-      'sendGrid': "<SendGrid API key>",
+      'ip': "<Static IP address (from DigitalOcean) or localhost (127.0.0.1)>",
+      'port': "<Any unused port - 4000 suggested>",
+      'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname>" (see mlab.com),
+      'secret': "<any string of numbers/letters>",
+      'adminPassword': "<any string of numbers/letters>",
+      'sendGrid': "<SendGrid API key> (see sendgrid.com)",
       'fromEmail': "<email to send mail as>",
       'cloudinary': {
           'cloud': "<name of cloud>",
