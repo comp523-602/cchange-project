@@ -31,7 +31,7 @@ Create a config.js file for your environment
           'api": "<Cloudinary API key>",
           'secret': "<Cloudinary SECRET key>",
       }
-    }'
+    }
 
 ## API Production Build
 
