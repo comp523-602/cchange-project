@@ -80,17 +80,13 @@ API Calls: /post.create
 **Edit Post** - This view will allow a user to edit the caption of their post.  
 API Calls: /list.single, /post.edit
 
-## Front End Design Docs  
+## Design Docs  
 
-Code: [http://appdocs.cchange.ga](http://appdocs.cchange.ga)  
+Front-end Code: [http://appdocs.cchange.ga](http://appdocs.cchange.ga)  
 
-Architecture: [https://comp523-602.github.io/project/architecture.html](https://comp523-602.github.io/project/architecture.html)
+Back-end Code: [apidocs.cchange.ga](http://apidocs.cchange.ga)
 
-## Back-end Design Docs
-
-Code Documention: [apidocs.cchange.ga](http://apidocs.cchange.ga)
-
-Routing Documention: [api.cchange.ga](http://api.cchange.ga)
+Back-end Routing: [api.cchange.ga](http://api.cchange.ga)
 
 Architecture: [https://comp523-602.github.io/project/architecture.html](https://comp523-602.github.io/project/architecture.html)  
 
