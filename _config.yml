@@ -11,7 +11,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-url: "/project/"
+url: "/project"
 section: COMP 523.602
 sass:
   style: compressed
