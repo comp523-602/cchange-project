@@ -3,7 +3,8 @@ title: Final Deliverables
 date: 2017-12-13 13:20:00 -05:00
 ---
 
-## Functional Spec: [cchange.siteleaf.net/functional-spec.html](cchange.siteleaf.net/functional-spec.html)  
+## Functional Spec: 
+[cchange.siteleaf.net/functional-spec.html](cchange.siteleaf.net/functional-spec.html)  
 
 ## Front-end Design Docs: [appdocs.cchange.ga](http://appdocs.cchange.ga)
 
