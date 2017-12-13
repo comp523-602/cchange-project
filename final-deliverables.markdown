@@ -27,7 +27,7 @@ Architecture: [https://comp523-602.github.io/project/architecture.html](https://
 
 ## [Server Repo](https://github.com/comp523-602/cchange-api)  
 
-## [Deployed Application](www.cchange.ga)  
+## [Deployed Application](http://www.cchange.ga)  
 
 ## [Video Demo](TBD)
 
