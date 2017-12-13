@@ -19,8 +19,6 @@ Routing: [api.cchange.ga](http://api.cchange.ga)
 
 Architecture: [https://comp523-602.github.io/project/architecture.html](https://comp523-602.github.io/project/architecture.html)  
 
-### Front-end and Back-end Manual    
-[https://comp523-602.github.io/project/documentation.html](https://comp523-602.github.io/project/documentation.html)  
+### [Front-end and Back-end Manual ](https://comp523-602.github.io/project/documentation.html)  
 
-### Test Plan
-[https://comp523-602.github.io/project/sprints/sprint-six.html#test-plan](https://comp523-602.github.io/project/sprints/sprint-six.html#test-plan)
+### [Test Plan](https://comp523-602.github.io/project/sprints/sprint-six.html#test-plan)
