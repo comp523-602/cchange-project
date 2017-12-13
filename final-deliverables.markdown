@@ -1,6 +1,7 @@
 ---
 title: Final Deliverables
 date: 2017-12-13 13:20:00 -05:00
+position: 8
 ---
 
 ## [Functional Spec](https://comp523-602.github.io/project/functional-spec.html)  
