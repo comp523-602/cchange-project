@@ -3,4 +3,18 @@ title: Final Deliverables
 date: 2017-12-13 13:20:00 -05:00
 ---
 
-##[Master Functional Spec] (cchange.siteleaf.net/functional-spec.html)
+##[Functional Spec] (cchange.siteleaf.net/functional-spec.html)  
+
+## Front-end Design Docs
+
+[appdocs.cchange.ga](http://appdocs.cchange.ga)
+
+Architecture: [https://comp523-602.github.io/project/architecture.html](https://comp523-602.github.io/project/architecture.html)
+
+## Back-end Design Docs
+
+Code: [apidocs.cchange.ga](http://apidocs.cchange.ga)
+
+Routing: [api.cchange.ga](http://api.cchange.ga)
+
+Architecture: [https://comp523-602.github.io/project/architecture.html](https://comp523-602.github.io/project/architecture.html)
