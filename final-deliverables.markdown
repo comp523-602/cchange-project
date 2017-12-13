@@ -6,7 +6,8 @@ date: 2017-12-13 13:20:00 -05:00
 ## Functional Spec:  
 [cchange.siteleaf.net/functional-spec.html](cchange.siteleaf.net/functional-spec.html)  
 
-## Front-end Design Docs: [appdocs.cchange.ga](http://appdocs.cchange.ga)
+## Front-end Design Docs: 
+Docs: [appdocs.cchange.ga](http://appdocs.cchange.ga)
 
 Architecture: [https://comp523-602.github.io/project/architecture.html](https://comp523-602.github.io/project/architecture.html)
 
