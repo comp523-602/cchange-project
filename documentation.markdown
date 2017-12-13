@@ -12,15 +12,13 @@ cChange is a consumer-facing social network, and usage is designed to be intuiti
 
 1. Setup a Linux environment
 2. Purchase a domain name (later referred to as your-domain.com) and point your default A record to your Linux environment's IP address
-2. Setup a database at mLab.com
-3. Setup an email account at SendGrid.com
-1. Access your machine using SSH - from a Unix terminal, type ssh username@IPAddress
-
-
-2. Install, configure, and start API
-3. Install and build application
-4. Install administation in a web accessable directory
-5. Setup Apache proxy
+3. Setup a database at mLab.com
+4. Setup an email account at SendGrid.com
+5. Access your machine using SSH - from a Unix terminal, type ssh username@IPAddress
+6. Install, configure, and start API
+7. Install and build application
+8. Install administation in a web accessable directory
+9. Setup Apache proxy
 
 ## API Installation
 
@@ -49,6 +47,12 @@ Create a config.js file for your environment (replace everything inside the brac
           'secret': "<Cloudinary SECRET key>",
       }
     }
+
+Install required packages
+`npm install`
+
+Install gulp globablly
+`sudo npm install -g gulp`
 
 ## API Production Build
 
