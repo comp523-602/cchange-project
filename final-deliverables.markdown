@@ -5,7 +5,9 @@ date: 2017-12-13 13:20:00 -05:00
 
 ## [Functional Spec](cchange.siteleaf.net/functional-spec.html)  
 
-## [Front End Design Docs](http://appdocs.cchange.ga)
+## Front End Design Docs  
+
+Code: [http://appdocs.cchange.ga](http://appdocs.cchange.ga)  
 
 Architecture: [https://comp523-602.github.io/project/architecture.html](https://comp523-602.github.io/project/architecture.html)
 
@@ -29,4 +31,4 @@ Architecture: [https://comp523-602.github.io/project/architecture.html](https://
 
 ## [Video Demo](TBD)
 
-## [Client Instruction](TBD)
+## [Client Instruction](https://docs.google.com/document/d/1T4zfx_R-XPf9oOyxbaoZcW-XGOvHmEvjwbENbpFmn5Y/edit)
