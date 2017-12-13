@@ -96,9 +96,111 @@ Architecture: [https://comp523-602.github.io/project/architecture.html](https://
 
 ## User Manuals
 
-### Front-end Manual
-
 cChange is a consumer-facing social network, and usage is designed to be intuitive (users that feel they need to access a manual will likely not use the site). For this reason, instructions will appear where they are needed throughout the site. Instructions will be provided whenever fields only accept content of a certain kind (password limits, image limits, description limits). Instructions will also be provided when users are sharing content to social networks.
+
+## Test Plan
+
+### Platforms
+
+* Windows
+* Mac OS X
+* iOS
+* Android
+
+### Browsers
+
+* Firefox (Windows)
+* Chrome (Windows, Android)
+* Edge (Windows)
+* Safari (Mac OS X, iOS)
+
+### Test Cases
+
+**Create user account**
+
+Prodecure:
+1. Navigate to cChange website
+2. Click on Create Account
+3. Fill out fields with email: , password: , name:
+4. Navigate to login
+5. Login using predefined email and password
+
+Expected Result:
+
+1. Site redirects to profile page displaying correct account name
+
+**Create charity account**
+
+Procedure:
+
+1. Generate new token from admin.cchange.ga using password: password1 and email:
+2. Navigate to cchange website
+3. Click on Create Account
+4. Fill out fields with email:, password:, name:, and predefined token
+5. Navigate to login
+6. Login using predefined email password
+7. Use charity name: when prompted
+
+Expected Result:
+
+1. Site redirects to profile page displaying correct account name, charity name, and charity editing widget
+
+**Edit charity**
+
+Procedure:
+
+1. Navigate to cchange website
+2. login with Charity account email: and password:
+3. Click on edit charity
+4. Replace description with ""
+
+Expected Result:
+
+1. Component are populated with correct information as AJAX call returns
+
+**Create campaign**
+
+Procedure:
+
+1. Navigate to cchange website
+2. login with Charity account email: and password:
+3. Click on charity profile
+4. Click on create campaign
+5. Fill out form
+
+Expected Result:
+
+1. Components are populated with correct information as AJAX call returns
+
+**Create Post**
+
+1. Navigate to cchange website
+2. login with Donor account email: and password:
+3. Navigate to campaign view page
+4. Create new post with image: and caption:
+
+Expected Result:
+
+1. Campaign and Posts pages now display post which was just created
+
+
+## Repositories
+
+[Front End (cchange-app-v2)](https://github.com/comp523-602/cchange-app-v2) 
+
+[Back End (cchange-api)](https://github.com/comp523-602/cchange-api)   
+
+[Administration Panel (cchange-admin)](https://github.com/comp523-602/cchange-admin) 
+
+## Deployed Application
+
+[cchange.ga](http://www.cchange.ga)  
+
+## Video Demo
+
+[Link Here](https://youtube.com)
+
+## Client Instruction
 
 ### Full deployment process for a new Linux machine 
 
@@ -255,14 +357,4 @@ Restart apache
 
 4. Press send
 
-## [Test Plan](https://comp523-602.github.io/project/sprints/sprint-six.html#test-plan)  
-
-## [Client Repo](https://github.com/comp523-602/cchange-app-v2)  
-
-## [Server Repo](https://github.com/comp523-602/cchange-api)  
-
-## [Deployed Application](http://www.cchange.ga)  
-
-## [Video Demo](TBD)
-
-## [Client Instruction](https://docs.google.com/document/d/1T4zfx_R-XPf9oOyxbaoZcW-XGOvHmEvjwbENbpFmn5Y/edit)
+[Handoff Document](https://docs.google.com/document/d/1T4zfx_R-XPf9oOyxbaoZcW-XGOvHmEvjwbENbpFmn5Y/edit)
