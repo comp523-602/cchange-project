@@ -1,7 +1,7 @@
 ---
 title: Final Deliverables
 date: 2017-12-13 13:20:00 -05:00
-position: 8
+position: 0
 ---
 
 ## Functional Spec
