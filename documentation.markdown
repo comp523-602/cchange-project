@@ -33,7 +33,7 @@ Install system imaging library
 
 Create a config.js file for your environment (replace everything inside the brackets, including the brackets, with the correct information. The client can use the information we provided privately in our handoff, or they can create their own accounts (the latter is recommended).
 
-    modules.exports = {
+    module.exports = {
       'ip': "<Static IP address (from DigitalOcean) or localhost (127.0.0.1)>",
       'port': "<Any unused port - 4000 suggested>",
       'database': "mongodb://<dbuser>:<password>@<hostname>:<port>/<dbname (see mlab.com)>",
